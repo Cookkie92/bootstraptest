@@ -1,8 +1,19 @@
+html,
 body {
-  color: black;
+  height: 100%;
+}
+body {
+  background-color: var(---background-colour) !important;
+  display: flex;
+  flex-direction: column;
 }
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: #f4f3ee;
+  background-color: var(---background-colour-assets) !important;
+  flex-shrink: 0;
+  padding: 0.5em;
+}
+.wrapper {
+  flex: 1 0 auto;
 }
