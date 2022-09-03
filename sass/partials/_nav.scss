@@ -12,7 +12,7 @@ nav {
     font-size: 18px;
   }
 
-  .navbar-nav .active > .nav-link {
+  a.active {
     color: getColor(pinki);
   }
 }

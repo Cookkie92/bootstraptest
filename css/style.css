@@ -21,6 +21,10 @@ footer {
   flex: 1 0 auto;
 }
 
+.col-md {
+  border: 1px red;
+}
+
 nav {
   background-color: #f4f3ee;
 }
@@ -35,6 +39,6 @@ nav .navbar-light .navbar-nav .nav-link {
   color: #8d8d8d;
   font-size: 18px;
 }
-nav .navbar-nav .active > .nav-link {
+nav a.active {
   color: #c32c72;
 }/*# sourceMappingURL=style.css.map */
