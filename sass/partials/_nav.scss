@@ -1,0 +1,18 @@
+nav {
+  background-color: getColor(lightbeige);
+  .navbar-brand {
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .navbar {
+    text-transform: uppercase;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: getColor(greyi);
+    font-size: 18px;
+  }
+
+  .navbar-nav .active > .nav-link {
+    color: getColor(pinki);
+  }
+}

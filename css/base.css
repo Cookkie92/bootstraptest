@@ -1,0 +1,6 @@
+body {
+  background-image: getColor(beige);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}/*# sourceMappingURL=base.css.map */

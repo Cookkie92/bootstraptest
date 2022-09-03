@@ -1,13 +1,3 @@
-body {
-  background-color: blue;
-}
-$colors: (
-  beige: #e5e5e5,
-  lightbeige: #f4f3ee,
-  pink: #c32c72,
-  grey: #8d8d8d,
-);
-$color-beige: #e5e5e5;
-$color-lightbeige: #f4f3ee;
-$color-pink: #c32c72;
-$color-grey: #8d8d8d;
+@import "partials/variables";
+@import "partials/base";
+@import "partials/nav";
