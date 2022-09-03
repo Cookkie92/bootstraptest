@@ -1,0 +1,25 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.card {
+  margin: 10px;
+  width: 264px;
+  height: 263px;
+  background-color: getColor(lightbeige);
+
+  &.pinkborder {
+    border-color: getColor(pinki);
+    background-color: white;
+  }
+  &.pinkbackground {
+    background-color: getColor(pinki);
+    border-color: white;
+  }
+}

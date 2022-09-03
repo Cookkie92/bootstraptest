@@ -21,10 +21,6 @@ footer {
   flex: 1 0 auto;
 }
 
-.col-md {
-  border: 1px red;
-}
-
 nav {
   background-color: #f4f3ee;
 }
@@ -39,6 +35,33 @@ nav .navbar-light .navbar-nav .nav-link {
   color: #8d8d8d;
   font-size: 18px;
 }
-nav a.active {
-  color: #c32c72;
+nav .active {
+  color: green;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .card-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.card {
+  margin: 10px;
+  width: 264px;
+  height: 263px;
+  background-color: #f4f3ee;
+}
+.card.pinkborder {
+  border-color: #c32c72;
+  background-color: white;
+}
+.card.pinkbackground {
+  background-color: #c32c72;
+  border-color: white;
 }/*# sourceMappingURL=style.css.map */

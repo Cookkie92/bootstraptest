@@ -12,7 +12,11 @@ nav {
     font-size: 18px;
   }
 
-  a.active {
-    color: getColor(pinki);
+  //   .navbar-light .navbar-nav .active > .nav-link {
+  //     color: getColor(pinki);
+  //   }
+
+  .active {
+    color: green;
   }
 }
