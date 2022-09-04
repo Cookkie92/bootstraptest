@@ -2,19 +2,17 @@ nav {
   background-color: getColor(lightbeige);
   .navbar-brand {
     font-size: 36px;
-    font-family: "Open Sans", sans-serif;
   }
-  .navbar {
-    text-transform: uppercase;
-  }
+
   .navbar-light .navbar-nav .nav-link {
     color: getColor(greyi);
     font-size: 18px;
+    font-family: $font-nav-link !important;
   }
 
-  //   .navbar-light .navbar-nav .active > .nav-link {
-  //     color: getColor(pinki);
-  //   }
+  .active a {
+    color: getColor(pinki) !important;
+  }
 
   .active {
     color: green;

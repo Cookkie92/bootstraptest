@@ -13,13 +13,14 @@
   width: 264px;
   height: 263px;
   background-color: getColor(lightbeige);
+  border-radius: 15px;
 
   &.pinkborder {
-    border-color: getColor(pinki);
     background-color: white;
+    border: 3px solid getColor(pinki);
   }
   &.pinkbackground {
     background-color: getColor(pinki);
-    border-color: white;
+    border: 3px solid white;
   }
 }
