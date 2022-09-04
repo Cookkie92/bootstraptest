@@ -1,5 +1,6 @@
 nav {
   background-color: getColor(lightbeige);
+  justify-content: space-around;
   .navbar-brand {
     font-size: 36px;
   }
@@ -12,9 +13,5 @@ nav {
 
   .active a {
     color: getColor(pinki) !important;
-  }
-
-  .active {
-    color: green;
   }
 }

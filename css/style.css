@@ -23,6 +23,7 @@ footer {
 
 nav {
   background-color: #f4f3ee;
+  justify-content: space-around;
 }
 nav .navbar-brand {
   font-size: 36px;
@@ -35,28 +36,11 @@ nav .navbar-light .navbar-nav .nav-link {
 nav .active a {
   color: #c32c72 !important;
 }
-nav .active {
-  color: green;
-}
-
-.card-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media (min-width: 768px) {
-  .card-container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
 
 .card {
-  margin: 10px;
-  width: 264px;
-  height: 263px;
   background-color: #f4f3ee;
   border-radius: 15px;
+  display: flex;
 }
 .card.pinkborder {
   background-color: white;
